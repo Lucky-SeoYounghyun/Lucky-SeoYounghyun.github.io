@@ -1,4 +1,16 @@
 <!-- The Side Bar -->
+<head></head>
+  <style>
+    .profile-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* 자식 요소를 중앙 정렬 */
+    }
+    .site-title {
+      text-align: center; /* 텍스트를 중앙 정렬 */
+    }
+  </style>
+</head>
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
@@ -7,14 +19,17 @@
         {%- capture avatar_url -%}
           {% include media-url.html src=site.avatar %}
         {%- endcapture -%}
-        <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+        
+        <img src="{{- avatar_url -}}" width="134" height="134" alt="avatar" onerror="this.style.display='none'">
       {%- endif -%}
     </a>
 
     <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </h1>
-    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+    <p class="site-status-subtitle fst-italic mb-0">{{ site.tagline2 }}</p>
+    <p class="site-subtitle mb-0">{{ site.tagline }}</p>
+    <!-- <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p> 사이드바 기울기 부분이나 삭제함-->
   </header>
   <!-- .profile-wrapper -->
 

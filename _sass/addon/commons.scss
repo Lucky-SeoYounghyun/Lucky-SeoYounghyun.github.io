@@ -713,8 +713,8 @@ $btn-mb: 0.5rem;
 
   #avatar {
     display: block;
-    width: 7rem;
-    height: 7rem;
+    width: 7.5rem;
+    height: 7.5rem;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
@@ -733,18 +733,18 @@ $btn-mb: 0.5rem;
     @extend %clickable-transition;
 
     padding-left: 2.5rem;
-    padding-right: 1.25rem;
+    padding-right: 2.5rem;
     width: 100%;
   }
 
   .site-title {
     font-family: inherit;
-    font-weight: 900;
-    font-size: 1.75rem;
+    font-weight: 1000;
+    font-size: 2.20rem;
     line-height: 1.2;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: -0.25rem; //이부분 수정함 기존 0.5rem
 
     a {
       @extend %clickable-transition;
@@ -753,11 +753,24 @@ $btn-mb: 0.5rem;
       color: var(--site-title-color);
     }
   }
+  
+  .site-status-subtitle {
+    font-size: 100%;
+    color: var(--site-subtitle-color);
+    margin-top: 0rem;
+    margin-bottom: 1rem !important;
+    word-spacing: 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }// 이부분 추가함
 
   .site-subtitle {
-    font-size: 95%;
+    font-size: 105%;
     color: var(--site-subtitle-color);
-    margin-top: 0.25rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem !important;
     word-spacing: 1px;
     -webkit-user-select: none;
     -moz-user-select: none;
