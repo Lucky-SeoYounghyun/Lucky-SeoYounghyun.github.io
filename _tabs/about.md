@@ -41,9 +41,9 @@ I enjoy developing, traveling and photography
 
 ## 📝 **Please contact me in the following way** 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Instagram Badge](http://img.shields.io/badge/-instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/_0_master/)
-[![GitHub Badge](http://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Lucky-SeoYounghyun)
-[![Gmail Badge](http://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:tigerseo7686@gmail.com)
+[![_0_master](http://img.shields.io/badge/-instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/_0_master/)
+[![Lucky-SeoYounghyun](http://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Lucky-SeoYounghyun)
+[![tigerseo7686@gmail.com](http://img.shields.io/badge/-tigerseo7686@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:tigerseo7686@gmail.com)
 
 <br/>
 
