@@ -33,7 +33,7 @@ I enjoy developing, traveling and photography
 <div style="padding-left: 20px; margin-top: -15px;">  
   <img src="https://img.shields.io/badge/c-A8B9CC?style=flat&logo=c&logoColor=white">
   <img src="https://img.shields.io/badge/mysql-4479A1?style=flat&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=black"> 
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"> 
   <img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"> 
 </div>
 

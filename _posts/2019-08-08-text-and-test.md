@@ -1,200 +1,99 @@
 ---
-title: test
-description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
-author: cotes
-date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
+title: "[KT AIVLE] KT 에이블 스쿨 6기 AI 최종 합격 후기(서류, 코딩테스트, 인적성) 및 사소한 팁"
+description: 
+author:
+date: 2024-08-08 11:33:00 +0900
+categories: [KT aivle school, 합격후기]
+tags: [KT aivle school]
 pin: true
 math: true
 mermaid: true
 image:
-  path: /commons/devices-mockup.png
+  path: /assets/img/20240912_post/KT_모집요강.jpg
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  alt: .
 ---
 
-## Headings
 
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable -->
-# H1 — heading
-{: .mt-4 .mb-0 }
+안녕하세요~
+늦었지만 KT에이블 스쿨 합격 후기를 작성하려고합니다.
+많은 분들께 도움이 되었으면 좋겠습니다.
 
-## H2 — heading
-{: data-toc-skip='' .mt-4 .mb-0 }
+## 1. 선발 절차
 
-### H3 — heading
-{: data-toc-skip='' .mt-4 .mb-0 }
+선발절차는 요약 설명하면 
+1. 서류전형 
+2. 인적성 검사 
+3. 코딩테스트 입니다. 
 
-#### H4 — heading
-{: data-toc-skip='' .mt-4 }
-<!-- markdownlint-restore -->
+이외에 자세한건 사항은 아래와 같습니다.
+![Desktop View](/assets/img/20240912_post/선발절차.PNG){: width="972" height="589" .w-75 }
+_KT Aivle School 선발절차_
 
-## Paragraph
 
-Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat ac, finibus nec mauris. Vivamus ut tristique nisi. Sed vel leo vulputate, efficitur risus non, posuere mi. Nullam tincidunt bibendum rutrum. Proin commodo ornare sapien. Vivamus interdum diam sed sapien blandit, sit amet aliquam risus mattis. Nullam arcu turpis, mollis quis laoreet at, placerat id nibh. Suspendisse venenatis eros eros.
+## 2. 지원 자격
 
-## Lists
+1. 전공 무관 // 하지만 기초적인 코딩역량 필요
+2. 졸업자 혹은 졸업 예정자 (34세 이하)
+3. 국민 내일 배움카드 발급 가능장(중요! kdt 수강 이력이 없어야 합니다.)
+3. 미취업자(교육 시작일 기준)
 
-### Ordered list
+이외에 자세한 사항은 아래와 같습니다.
 
-1. Firstly
-2. Secondly
-3. Thirdly
+![Desktop View](/assets/img/20240912_post/지원자격.PNG){: width="972" height="589" .w-75 }
+_KT Aivle School 지원자격_
 
-### Unordered list
+## 3. 서류전형
+우선 저는 Aivle school을 학교를 통해서 지원 하여 서류전형은 면제를 받았습니다.
+하지만 서류 제출은 필수로 자소서를 작성하였습니다.
+내용은 회사 서류전형을 생각하며 제출하였습니다.
+주로 내가 왜 KT Aivle school에 참여해야하는지, 또 어떤것을 얻어가고 싶은지,
+왜 내가 본 코스에 적합한 인재인지에대해 최대한 솔직하게 작성하였습니다.
+서류 합격률은 높은것같으나 최대한 성실히 작성하는게 추후에도 도움이 될꺼같습니다.
 
-- Chapter
-  - Section
-    - Paragraph
+서류를 제출한후 합격발표일에 이메일로 합격 유무 결과가 발송됩니다.
 
-### ToDo list
+![Desktop View](/assets/img/20240912_post/서류전형 합격 메일.PNG){: width="972" height="589" .w-75 }
+_KT Aivle School 서류전형 합격 메일_
 
-- [ ] Job
-  - [x] Step 1
-  - [x] Step 2
-  - [ ] Step 3
+## 4. 각종 테스트 ( 인적성검사 / 코딩테스트 )
+본 코스 합류 절차중 가장 난이도 높은 부분 이라고 볼 수 있습니다.
+특히 서류전형 합격 후 1~2주정도 밖에 시간이 없으며 인적성 검사 후 바로 다음날 코딩테스트가 있습니다.
+KT Aivle School에 합류를 원하시는 분들께서는 서류를 제출하는 그 즉시 서류는 붙었다고 생각하시고 인적성검사와 코딩테스트 준비하시는게 시간상 좋을꺼같습니다.
 
-### Description list
+### 4.1) 인적성 검사
+인적성검사는 아래책을 참고하여 공부하였습니다.
 
-Sun
-: the star around which the earth orbits
+![Desktop View](/assets/img/20240912_post/KT_그룹_종합적성검사_교재.jpg){: width="972" height="589" .w-75 }
+_KT Aivle School 인적성검사_
 
-Moon
-: the natural satellite of the earth, visible by reflected light from the sun
+책과 유형은 비슷하며 난이도는 살짝 어렵게 나왔던것같습니다.(준비하지 않았다면 약간 더 어려웠을꺼같습니다)
+시간이 없으시다면 책을 전부다 푼다는 느낌보다는 유형별로 몇문제씩 풀어보시면서 각 유형이 어떻게 나오는지 확인하시는게 좋습니다.
+하지만 책으로만 풀어서 그런지 온라인으로 보는 시험에 익숙하지않아서 연습때보다 시간이 더 걸렸던것같습니다.
+여러분들은 **온라인으로도 시험을 푸는 연습을 하는게 본시험에 더 도움이 될꺼같습니다.**
 
-## Block Quote
+### 4.2) 코딩 테스트
+코딩테스는 프로그래머스로 진행이 됩니다.
+제 기준 난이도는 백준 실버 1 ~ 4, 프로그래머스 1 ~ 2 정도 되는것같습니다.
+총 4문제가 나왔으며 난이도는 무난했습니다.
 
-> This line shows the _block quote_.
+저는 아래 책과 백준으로 공부를 계속하다가 시험보기 1주일전부터 [**programmers 코딩테스트 고득점 Kit**](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)를 풀었습니다.
 
-## Prompts
+![Desktop View](/assets/img/20240912_post/programmers_코딩테스트_고득점_Kit.PNG){: width="972" height="589" .w-75 }
+_고득점 KIT_
 
-<!-- markdownlint-capture -->
-<!-- markdownlint-disable -->
-> An example showing the `tip` type prompt.
-{: .prompt-tip }
+이중 가장 도움이 되었던것은 programmers 코딩테스트 고득점 Kit였습니다. 
+실제로 본시험에서도 비슷한 문제가 나왔습니다.
+시간이 없으신분들은 고득점 kit 문제만 풀으셔도 많은 도움이 될꺼같습니다.
 
-> An example showing the `info` type prompt.
-{: .prompt-info }
+## 5. 결과
 
-> An example showing the `warning` type prompt.
-{: .prompt-warning }
+![Desktop View](/assets/img/20240912_post/최종합격.PNG){: width="972" height="589" .w-75 }
+_최종합격_
 
-> An example showing the `danger` type prompt.
-{: .prompt-danger }
-<!-- markdownlint-restore -->
+최종 합격하였습니다! 솔직히 인적성 검사를 생각보다 못본것같아서 걱정이 많았으나 합격을 받아서 다행입니다.
+개발자로서 현재 많이 부족하지만 에이블 스쿨을 통해서 많이 배우고 성장하여 기초가 단단한 개발자로 나아가고자 합니다.
 
-## Tables
+앞으로 성장해나가는 제 모습을 블로그를 통해 보여드리도록 하겠습니다!
 
-| Company                      | Contact          | Country |
-| :--------------------------- | :--------------- | ------: |
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    |      UK |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
-
-## Links
-
-<http://127.0.0.1:4000>
-
-## Footnote
-
-Click the hook will locate the footnote[^footnote], and here is another footnote[^fn-nth-2].
-
-## Inline code
-
-This is an example of `Inline Code`.
-
-## Filepath
-
-Here is the `/path/to/the/file.extend`{: .filepath}.
-
-## Code blocks
-
-### Common
-
-```text
-This is a common code snippet, without syntax highlight and line number.
-```
-
-### Specific Language
-
-```bash
-if [ $? -ne 0 ]; then
-  echo "The command was not successful.";
-  #do the needful / exit
-fi;
-```
-
-### Specific filename
-
-```sass
-@import
-  "colors/light-typography",
-  "colors/dark-typography";
-```
-{: file='_sass/jekyll-theme-chirpy.scss'}
-
-## Mathematics
-
-The mathematics powered by [**MathJax**](https://www.mathjax.org/):
-
-$$
-\begin{equation}
-  \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}
-  \label{eq:series}
-\end{equation}
-$$
-
-We can reference the equation as \eqref{eq:series}.
-
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
-
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
-## Mermaid SVG
-
-```mermaid
- gantt
-  title  Adding GANTT diagram functionality to mermaid
-  apple :a, 2017-07-20, 1w
-  banana :crit, b, 2017-07-23, 1d
-  cherry :active, c, after b a, 1d
-```
-
-## Images
-
-### Default (with caption)
-
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
-_Full screen width and center alignment_
-
-### Left aligned
-
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-75 .normal}
-
-### Float to left
-
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-50 .left}
-Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecenas pharetra, sem sit amet interdum posuere, tellus lacus eleifend magna, ac lobortis felis ipsum id sapien. Proin ornare rutrum metus, ac convallis diam volutpat sit amet. Phasellus volutpat, elit sit amet tincidunt mollis, felis mi scelerisque mauris, ut facilisis leo magna accumsan sapien. In rutrum vehicula nisl eget tempor. Nullam maximus ullamcorper libero non maximus. Integer ultricies velit id convallis varius. Praesent eu nisl eu urna finibus ultrices id nec ex. Mauris ac mattis quam. Fusce aliquam est nec sapien bibendum, vitae malesuada ligula condimentum.
-
-### Float to right
-
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-50 .right}
-Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecenas pharetra, sem sit amet interdum posuere, tellus lacus eleifend magna, ac lobortis felis ipsum id sapien. Proin ornare rutrum metus, ac convallis diam volutpat sit amet. Phasellus volutpat, elit sit amet tincidunt mollis, felis mi scelerisque mauris, ut facilisis leo magna accumsan sapien. In rutrum vehicula nisl eget tempor. Nullam maximus ullamcorper libero non maximus. Integer ultricies velit id convallis varius. Praesent eu nisl eu urna finibus ultrices id nec ex. Mauris ac mattis quam. Fusce aliquam est nec sapien bibendum, vitae malesuada ligula condimentum.
-
-### Dark/Light mode & Shadow
-
-The image below will toggle dark/light mode based on theme preference, notice it has shadows.
-
-![light mode only](/posts/20190808/devtools-light.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
-![dark mode only](/posts/20190808/devtools-dark.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
-
-## Video
-
-{% include embed/youtube.html id='Balreaj8Yqs' %}
-
-## Reverse Footnote
-
-[^footnote]: The footnote source
-[^fn-nth-2]: The 2nd footnote source
+이만 가보겠습니다!

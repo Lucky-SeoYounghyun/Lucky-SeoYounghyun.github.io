@@ -15,7 +15,7 @@ timezone: Asia/Seoul
 # ↓ --------------------------
 
 title: ZeroMaster # the main title
-tagline2 : test
+tagline2 : KT_aivler
 tagline: 안녕하세요 제로마스터입니다.<br>다양한 정보를 공유하고자합니다. # it will display as the subtitle
 
 description: ZeroMaster, 제로마스터 의 기술 블로그입니다.>- # used by seo meta and the atom feed

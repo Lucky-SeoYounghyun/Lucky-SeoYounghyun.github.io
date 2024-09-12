@@ -3,7 +3,7 @@ title: Text and Typography_tset0000001
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: cotes
 date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
+categories: [Blogging, tset]
 tags: [typography]
 pin: true
 math: true
