@@ -39,7 +39,7 @@ I enjoy developing, traveling and photography
 
 <br/>
 
-## 📝 **Please contact me in the following way** 
+## 📝 **Please contact me in the following way!** 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![_0_master](http://img.shields.io/badge/-instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/_0_master/)
 [![Lucky-SeoYounghyun](http://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Lucky-SeoYounghyun)
