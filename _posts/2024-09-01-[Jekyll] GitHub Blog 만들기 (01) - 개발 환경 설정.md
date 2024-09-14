@@ -18,9 +18,13 @@ mermaid: true
 > OS : windows 10<br/>
 Date : 2024 / 09 / 01
 
+<br/>
+
 ## **0. 들어가기에 앞서**
 GitBlog 와 테마를 보다 효율적으로 사용하기위해 이번 글에서는 Ruby 설치와 jekyll설치를 하고자합니다.<br/>
 모든 프로그램을 설치후 컴퓨터를 재부팅 해주어야 프로그램이 정상 작동합니다.
+
+<br/>
 
 ## **1. Ruby 설치**
 [**Ruby**](https://rubyinstaller.org/downloads/archives/)에서 Ruby+Devkit 3.1.2-1 (x64)를 다운로드하여 아래글을 참고하여 설치하여 주시기바랍니다.
