@@ -146,7 +146,7 @@ gitignore 파일을 열어 해당부분 주석처리를 해줍니다.
 
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
-이제 모든 설치가 완료되었으며 이를 git에 반영해주어야 합니다.
+이제 모든 설치가 완료되었으며 이를 git에 반영해주어야 합니다.<br/>
 보통은 아래와 같은 메시지를 입력할것입니다.
 
 ```batch
@@ -177,8 +177,8 @@ git push
 <br/>
 
 ### **3.2 husky 주석처리**
-두번째로는 규칙에 주석처리를 해주는 방법입니다.
-이를 위해서 `.husky`폴더에서 `commit-msg`파일을 txt로 열어줍니다.
+두번째로는 규칙에 주석처리를 해주는 방법입니다.<br/>
+이를 위해서 `.husky`폴더에서 `commit-msg`파일을 txt로 열어줍니다.<br/>
 이후 아래와 같이 주석처리를 해준 후 저장한 합니다.
 
 ```
@@ -201,7 +201,7 @@ git push
 
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
-블로그가 정확히 작동하는지 링크에 들어가 확인해줍니다.
+블로그가 정확히 작동하는지 링크에 들어가 확인해줍니다.<br/>
 정상적인 commit완료후 반영이 되기까지 10분정도 소요가 될 수 있습니다.
 ![Desktop View](/assets/img/20240902_post/success_final.JPG){: width="800" height="400"}
 

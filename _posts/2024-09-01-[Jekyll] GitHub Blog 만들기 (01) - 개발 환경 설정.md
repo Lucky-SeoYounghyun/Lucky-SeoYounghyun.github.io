@@ -21,6 +21,7 @@ Date : 2024 / 09 / 01
 <br/>
 
 ## **0. 들어가기에 앞서**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 GitBlog 와 테마를 보다 효율적으로 사용하기위해 이번 글에서는 Ruby 설치와 jekyll설치를 하고자합니다.<br/>
 모든 프로그램을 설치후 컴퓨터를 재부팅 해주어야 프로그램이 정상 작동합니다.
 
@@ -74,6 +75,7 @@ Could not find gem 'wdm (~> 0.1.1) mingw, x64_mingw, mswin' in locally installed
 <br/>
 
 ## **3. 글을 마무리하며**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 이번글은 본격적인 GitBlog를 활용해 Chirpy 테마적용한 블로그를 만들기 위한 사전 프로그램 설치 방법 글이였습니다.
 다음 글에서는 GitBlog를 Chirpy테마로 만드는 방법을 설명해드리도록 하겠습니다.
 
@@ -82,4 +84,5 @@ Could not find gem 'wdm (~> 0.1.1) mingw, x64_mingw, mswin' in locally installed
 <br/>
 
 ## **참조**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 <a href="https://stackoverflow.com/questions/78553132/shopify-error-coming-from-bundle-install/78617137#78617137" target="_blank">Could not find gem err</a>
