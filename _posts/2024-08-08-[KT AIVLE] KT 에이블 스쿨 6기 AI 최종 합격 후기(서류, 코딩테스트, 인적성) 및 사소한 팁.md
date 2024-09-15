@@ -27,7 +27,7 @@ image:
 3. 코딩테스트 입니다. 
 
 이외에 자세한건 사항은 아래와 같습니다.
-![Desktop View](/assets/img/20240912_post/선발절차.PNG){: width="972" height="589" .w-75 }
+![Desktop View](/assets/img/20240912_post/선발절차.PNG){: width="800" height="400"}
 _KT Aivle School 선발절차_
 
 
@@ -40,7 +40,7 @@ _KT Aivle School 선발절차_
 
 이외에 자세한 사항은 아래와 같습니다.
 
-![Desktop View](/assets/img/20240912_post/지원자격.PNG){: width="972" height="589" .w-75 }
+![Desktop View](/assets/img/20240912_post/지원자격.PNG){: width="800" height="400"}
 _KT Aivle School 지원자격_
 
 ## **3. 서류전형**
@@ -53,7 +53,7 @@ _KT Aivle School 지원자격_
 
 서류를 제출한후 합격발표일에 이메일로 합격 유무 결과가 발송됩니다.
 
-![Desktop View](/assets/img/20240912_post/서류전형 합격 메일.PNG){: width="972" height="589" .w-75 }
+![Desktop View](/assets/img/20240912_post/서류전형 합격 메일.PNG){: width="800" height="400"}
 _KT Aivle School 서류전형 합격 메일_
 
 ## **4. 각종 테스트 ( 인적성검사 / 코딩테스트 )**
@@ -64,7 +64,7 @@ KT Aivle School에 합류를 원하시는 분들께서는 서류를 제출하는
 ### **4.1) 인적성 검사**
 인적성검사는 아래책을 참고하여 공부하였습니다.
 
-![Desktop View](/assets/img/20240912_post/KT_그룹_종합적성검사_교재.jpg){: width="972" height="589" .w-75 }
+![Desktop View](/assets/img/20240912_post/KT_그룹_종합적성검사_교재.jpg){: width="800" height="400"}
 _KT Aivle School 인적성검사_
 
 책과 유형은 비슷하며 난이도는 살짝 어렵게 나왔던것같습니다.(준비하지 않았다면 약간 더 어려웠을꺼같습니다)

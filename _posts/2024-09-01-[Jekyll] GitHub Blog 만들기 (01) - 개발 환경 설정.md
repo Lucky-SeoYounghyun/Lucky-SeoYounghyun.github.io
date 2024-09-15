@@ -27,6 +27,7 @@ GitBlog 와 테마를 보다 효율적으로 사용하기위해 이번 글에서
 <br/>
 
 ## **1. Ruby 설치**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 [**Ruby**](https://rubyinstaller.org/downloads/archives/)에서 Ruby+Devkit 3.1.2-1 (x64)를 다운로드하여 아래글을 참고하여 설치하여 주시기바랍니다.
 > 현재 Ruby+Devkit 3.1.2-1 (x64)가 아닌 다른 버전을 설치하면 아래와 같은 에러가 발생하는것을 발견하였습니다.<br/>
 Could not find gem 'wdm (~> 0.1.1) mingw, x64_mingw, mswin' in locally installed gems.
@@ -55,6 +56,7 @@ Could not find gem 'wdm (~> 0.1.1) mingw, x64_mingw, mswin' in locally installed
 <br/>
 
 ## **2. Node.js 설치**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
  [**Node.js**](https://nodejs.org/en/)에서 다운로드 후 아래 글을 참고하여 설치하여 주시기 바랍니다.
 1. 다운로드<br/>
@@ -80,4 +82,4 @@ Could not find gem 'wdm (~> 0.1.1) mingw, x64_mingw, mswin' in locally installed
 <br/>
 
 ## **참조**
-<https://stackoverflow.com/questions/78553132/shopify-error-coming-from-bundle-install/78617137#78617137>
+<a href="https://stackoverflow.com/questions/78553132/shopify-error-coming-from-bundle-install/78617137#78617137" target="_blank">Could not find gem err</a>
