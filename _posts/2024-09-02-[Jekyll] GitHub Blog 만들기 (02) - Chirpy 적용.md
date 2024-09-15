@@ -3,7 +3,7 @@ title: "[Jekyll] GitHub Blog 만들기! (02) - Chirpy 적용"
 description: 
 author:
 date: 2024-09-02 18:00:00 +0900
-categories: [Jekyll, 환경설정]
+categories: [Jekyll, Chirpy]
 tags: [Chirpy]
 pin: true
 math: true
@@ -22,6 +22,7 @@ Date : 2024 / 09 / 01 <br/>
 <br/>
 
 ## **0. 들어가기에 앞서**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 많은분들이 블로그를 만들기전에 다양한 블로그를 고민할것입니다.  
 저도 Tstory, Velog 등 다양한 블로그를 고민하다가 Github Blog로 정착하게 되었습니다.  
 그 과정에서 겪은 다양한 오류들을 공유하고자 이 글을 작성합니다.  
@@ -29,6 +30,7 @@ Date : 2024 / 09 / 01 <br/>
 <br/>
 
 ## **1. 테마선정**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 github blog에 적용할 수 있는 다양한 테마가 존재하며 이는 아래 사이트들에서 확인 가능합니다.  
 - <http://jekyllthemes.org/>  
 - <https://jekyllthemes.io/>  
@@ -39,7 +41,10 @@ github blog에 적용할 수 있는 다양한 테마가 존재하며 이는 아�
 
 <br/>
 
-## **2. Chirpy 설치방법**
+## **2. Chirpy 설치**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+
+### **2.1 테마 적용방법**
 Chirpy를 이용한 블로그 개설은 세가지 방법이 있습니다.
 1. Chirpy에서 zip로 직접 다운로드 받는 방법
 2. Chirpy에서 저장소로 Fork하는방법
@@ -49,8 +54,11 @@ Chirpy를 이용한 블로그 개설은 세가지 방법이 있습니다.
 
 <br/>
 
-## **3. Chirpy Fork**
-[**링크**](https://github.com/cotes2020/jekyll-theme-chirpy/fork)에서 그림과같이 fork를 하여 내 Repository로 가져옵니다.
+### **2.2 Chirpy Fork**
+[**Chirpy Fork**](https://github.com/cotes2020/jekyll-theme-chirpy/fork)에서 그림과같이 fork를 하여 내 Repository로 가져옵니다.
+
+![Desktop View](/assets/img/20240901_post/Ruby_install_04.JPG){: width="800" height="400" .w-75}
+
 > 저장소 이름은 {UserName.github.io}로 지정해주시기 바랍니다. 추후 수정가능하지만 한번에 하기위함입니다.
 {: .prompt-warning }
 
@@ -71,8 +79,8 @@ git clone "Repository HTTPS 링크"
 
 <br/>
 
-## **6 chirpy 업데이트 // 이전에 clone 하신분들만 해당**
-[**링크**](https://github.com/cotes2020/jekyll-theme-chirpy/fork)에서 최신 파일을 다운받아 압 축 해제 후 전체 붙여넣기를 합니다.
+## **6 chirpy 업데이트** <span style="font-size: 16px;">// 이전에 clone 하신분들만 해당</span>
+[**Chirpy 업데이트**](https://github.com/cotes2020/jekyll-theme-chirpy/tags)에서 최신 파일을 다운받아 압 축 해제 후 전체 붙여넣기를 합니다.
 
 ## 각종 모듈 설치
 
