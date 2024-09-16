@@ -20,6 +20,7 @@ image:
 많은 분들께 도움이 되었으면 좋겠습니다.
 
 ## **1. 선발 절차**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
 선발절차는 요약 설명하면 
 1. 서류전형 
@@ -32,6 +33,7 @@ _KT Aivle School 선발절차_
 
 
 ## **2. 지원 자격**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
 1. 전공 무관 // 하지만 기초적인 코딩역량 필요
 2. 졸업자 혹은 졸업 예정자 (34세 이하)
@@ -44,6 +46,8 @@ _KT Aivle School 선발절차_
 _KT Aivle School 지원자격_
 
 ## **3. 서류전형**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+
 우선 저는 Aivle school을 학교를 통해서 지원 하여 서류전형은 면제를 받았습니다.
 하지만 서류 제출은 필수로 자소서를 작성하였습니다.
 내용은 회사 서류전형을 생각하며 제출하였습니다.
@@ -57,6 +61,8 @@ _KT Aivle School 지원자격_
 _KT Aivle School 서류전형 합격 메일_
 
 ## **4. 각종 테스트 ( 인적성검사 / 코딩테스트 )**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+
 본 코스 합류 절차중 가장 난이도 높은 부분 이라고 볼 수 있습니다.
 특히 서류전형 합격 후 1~2주정도 밖에 시간이 없으며 인적성 검사 후 바로 다음날 코딩테스트가 있습니다.
 KT Aivle School에 합류를 원하시는 분들께서는 서류를 제출하는 그 즉시 서류는 붙었다고 생각하시고 인적성검사와 코딩테스트 준비하시는게 시간상 좋을꺼같습니다.
@@ -87,6 +93,7 @@ _고득점 KIT_
 시간이 없으신분들은 고득점 kit 문제만 풀으셔도 많은 도움이 될꺼같습니다.
 
 ## **5. 결과**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
 ![Desktop View](/assets/img/20240912_post/최종합격.PNG){: width="972" height="589" .w-75 }
 _최종합격_

@@ -183,10 +183,10 @@ $sidebar-width-large: 350px !default;
 <br/>
 
 ## **5. favicon 수정**
-<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
-파비콘이란 블로그의 대표 이미지라고 할 수 있습니다. 아래 이미지와 같이 주소 옆에 보이는 작은 이미지 등을 말합니다.
-![Desktop View](/assets/img/20240903_post/favicon_01.JPG){: width="800" height="400"}
-![Desktop View](/assets/img/20240903_post/favicon_02.JPG){: width="800" height="400"}
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;">
+파비콘이란 블로그의 대표 이미지라고 할 수 있습니다. 아래 이미지와 같이 주소 옆에 보이는 작은 이미지 등을 말합니다.  
+![Desktop View](/assets/img/20240903_post/favicon_01.JPG){: width="800" height="400" .w-50}
+![Desktop View](/assets/img/20240903_post/favicon_02.JPG){: width="800" height="400" .w-75}
 
 [**realfavicongenerator**](https://realfavicongenerator.net/)에서 원하는 이미지로 favicon을 만든 후 다운로드 합니다.  
 압축 해재 후 `browserconfig.xml`와 `site.webmanifest`를 삭제해줍니다.  
@@ -200,6 +200,7 @@ $sidebar-width-large: 350px !default;
 
 이번 포스팅에서는 chirpy를 활용한 GitHub블로그 커스터마이징에대해 정리해보았습니다.  
 알려드린 기능 이외에도 다양한 기능이 존재하며, 자유도가 상당히 높은 커스터마이징이 가능합니다.  
+다음 포스팅에서는 댓글 기능 사용방법에대해 설명드리도록 하겠습니다!  
 혹시 궁금한점이 있으시면 댓글로 남겨주시면 확인하도록 하겠습니다!
 
 이만 가보겠습니다!
