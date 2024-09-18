@@ -1,9 +1,9 @@
 ---
-title: "[Jekyll] GitHub Blog 만들기! (04) - Chirpy giscus를 활용한 댓글 기능 추가 // 작성중"
+title: "[Jekyll] GitHub Blog 만들기! (04) - Chirpy giscus를 활용한 댓글 기능 추가"
 description: 
 author:
 date: 2024-09-04 19:00:00 +0900
-categories: [Jekyll, Chirpy]
+categories: [Jekyll, giscus]
 tags: [Chirpy, giscus, 댓글기능]
 pin: true
 math: true
