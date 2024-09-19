@@ -94,7 +94,3 @@ webmaster_verifications:
 이만 가보겠습니다!
 
 <br/>
-
-## **참조**
-<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
-<a href="https://www.irgroup.org/posts/jekyll-google-search/" target="_blank">https://github.com/cotes2020/jekyll-theme-chirpy/discussions/1514</a><br/>
