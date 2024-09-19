@@ -41,12 +41,25 @@ Date : 2024 / 09 / 05 <br/>
 ![Desktop View](/assets/img/20240906_post/naver_search_advisor_02.JPG){: width="800" height="400"}
 
 ### 1.3) 사이트 소유 확인
-사이트 소유확인은 아래 사진과 같이 두가지 방법이 있습니다.
+사이트 소유확인은 아래 사진과 같이 두가지 방법이 있습니다.  
 ![Desktop View](/assets/img/20240906_post/naver_search_advisor_03.JPG){: width="800" height="400"}
-  - HTML 파일 업로드  
-    - 파일을 다운로드후 최상위 디렉토리인 `_config.yml`이 있는 폴더에 넣어줍니다.
-  - HTML 태그 복사  
-    - 태그를 복사 후 `_includes` 폴더 안에있는 `head.html`에 복사하여줍니다.
+
+- HTML 파일 업로드  
+  - 파일을 다운로드후 최상위 디렉토리인 `_config.yml`이 있는 폴더에 넣어줍니다.
+- HTML 태그 복사  
+  - 태그를 복사 후 `_includes` 폴더 안에있는 `head.html`에 복사하여줍니다.
+    
+파일을 업로드후 `소유확인`버튼을 클릭합니다.<sub>(본 포스팅에서는 HTML 파일 업로드 방식으로 진행하도록 하겠습니다.)</sub>  
+요청이 완료되면 아래와 같은 팝업창이 뜨며 완료됩니다.
+![Desktop View](/assets/img/20240906_post/naver_search_advisor_04.JPG){: width="800" height="400"}
+
+### 1.4) sitemap.xml 등록
+좌측 메뉴의 `요청` > `사이트맵 제출`을 클릭한 후 `블로그주소/sitemap.xml` 링크를 아래 사진과 같이 제출합니다.
+
+### 1.5) feed.xml 등록
+좌측 메뉴의 `요청` > `RSS 제출`을 클릭한 후 `블로그주소/feed.xml` 링크를 아래 사진과 같이 제출합니다.
+여기서 문제가 발생합니다.
+https://jekyllcodex.org/without-plugin/rss-feed/#
 
 <br/>
 
