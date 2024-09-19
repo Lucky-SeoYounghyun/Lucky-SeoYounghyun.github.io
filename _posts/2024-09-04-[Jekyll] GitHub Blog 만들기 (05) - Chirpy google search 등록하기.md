@@ -1,8 +1,8 @@
 ---
-title: "[Jekyll] GitHub Blog 만들기! (05) - Chirpy 검색엔진 등록하기(1) // 작성중"
+title: "[Jekyll] GitHub Blog 만들기! (05) - Chirpy 검색엔진 등록하기(1)"
 description: 
 author:
-date: 2024-09-05 19:00:00 +0900
+date: 2024-09-05 19:27:00 +0900
 categories: [Jekyll, search engine]
 tags: [Chirpy, search, google]
 pin: true
@@ -36,18 +36,15 @@ Date : 2024 / 09 / 05 <br/>
 [**google search console**](https://search.google.com/search-console/welcome)에 들어갑니다.  
 이후 아래와 같은 화면에서 오른쪽 URL 접두어 부분에 URL을 입력합니다.
 
-![Desktop View](/assets/img/20240904_post/search_console_01.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20240905_post/search_console_01.JPG){: width="800" height="400"}
 
 ### **1.2) 소유권 확인**  
-아래 이미지에서 HTML 태그 부분을 클릭후 content부분을 복사하여 줍니다.
-
-![Desktop View](/assets/img/20240904_post/search_console_02.JPG){: width="800" height="400"}
-
-### **1.3) 메타태그 등록**  
 아래 이미지에서 HTML 태그 부분을 클릭후 복사하여 줍니다.
 
-![Desktop View](/assets/img/20240904_post/search_console_02.JPG){: width="800" height="400"}
-해당 링크를 이용하여 소유권을 확인하는 방법은 아래와같이 두가지가 있습니다.
+![Desktop View](/assets/img/20240905_post/search_console_02.JPG){: width="800" height="400"}
+
+### **1.3) 메타태그 등록**  
+메타태그를 이용하여 소유권을 확인하는 방법은 아래와같이 두가지가 있습니다.
 - **header 부분에 직접 넣기**  
 복사한 아래 태그를 `head.html`에 직접 삽입하기
 
@@ -65,19 +62,19 @@ webmaster_verifications:
 ### **1.4) 소유권 확인**
 메타 태그를 등록한 후 git에 commit까지 완료하였으면 다시 google search console로 돌아와 확인을 눌러줍니다.  
 그러면 아래 사진과 같이 소유권 확인이 완료됩니다.
-![Desktop View](/assets/img/20240904_post/search_console_03.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20240905_post/search_console_03.JPG){: width="800" height="400"}
 
 ### **1.5) sitemap.xml등록**
 이제 속성확인을 클릭한 후 왼쪽 메뉴에 Sitemaps를 클릭하면 아래 사진과 같은 사이트에 들어가게 됩니다.
 새 사이트맵 추가에 `sitemap.xml`을 입력한 후 제출을 클릭합니다.
-![Desktop View](/assets/img/20240904_post/search_console_04.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20240905_post/search_console_04.JPG){: width="800" height="400"}
 
 조금 기다리면 제출이 완료되며 아래 사진과 같이 전환이 되면 성공입니다.
-![Desktop View](/assets/img/20240904_post/search_console_05.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20240905_post/search_console_05.JPG){: width="800" height="400"}
 
 ### **1.6) 자주하는 질문**
 - 인터넷에서 검색이 안되요!
-  - 정상적입니다. 몇일 기다리다보면 등록이 완료됩니다.
+  - 정상적입니다. 몇일 기다리다보면 등록이 완료됩니다. 저는 1주일정도 기다린것 같습니다.
 - `sitemap.xml`상태가 `가져올 수 없음`이라고 떠요!
   - 상태이상처럼 보이나 단순 버그일 가능성이 큽니다.
 - 새로운 개시글을 등록하였으나 페이지 색인이 안됩니다 ㅠㅜ
@@ -97,3 +94,7 @@ webmaster_verifications:
 이만 가보겠습니다!
 
 <br/>
+
+## **참조**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+<a href="https://www.irgroup.org/posts/jekyll-google-search/" target="_blank">https://github.com/cotes2020/jekyll-theme-chirpy/discussions/1514</a><br/>
