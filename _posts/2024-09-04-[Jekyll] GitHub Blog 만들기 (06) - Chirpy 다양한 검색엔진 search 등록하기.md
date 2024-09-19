@@ -1,5 +1,5 @@
 ---
-title: "[Jekyll] GitHub Blog 만들기! (06) - Chirpy 검색엔진 등록하기(2) // 작성중"
+title: "[Jekyll] GitHub Blog 만들기! (06) - Chirpy 검색엔진 등록하기(2)"
 description: 
 author:
 date: 2024-09-06 19:00:00 +0900
