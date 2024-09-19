@@ -1,8 +1,8 @@
 ---
-title: "[Jekyll] GitHub Blog 만들기! (05) - Chirpy 검색엔진 등록하기(1) // 작성중"
+title: "[Jekyll] GitHub Blog 만들기! (06) - Chirpy 검색엔진 등록하기(2) // 작성중"
 description: 
 author:
-date: 2024-09-05 19:00:00 +0900
+date: 2024-09-06 19:00:00 +0900
 categories: [Jekyll, search engine]
 tags: [Chirpy, search, google]
 pin: true
@@ -23,13 +23,18 @@ Date : 2024 / 09 / 05 <br/>
 
 ## **0. 들어가기에 앞서**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
-이전 글에서는 giscus를 활용하여 댓글기능을 만드는 방법에대해서 알아보았습니다.  
-블로그를 만들었으면 이제 많은 사람들이 찾아올 수 있게 만들어야합니다.
-이를 위해 google 서치콘솔에 블로그를 등록하는 방법을 알아보고자 합니다.
+이전 글에서는 google 서치콘솔을 사용하여 서치엔진에 등록하는 방법에대해서 알아보았습니다.  
+이번에는 사용자가 보다 다양한 경로에서 블로그에 접근 할 수 있도록
+다양한 서치엔진(naver, daum, bing)에 등록하는 방법에대해 알아보도록 하겠습니다.
 
 <br/>
 
-## **1. google 등록**
+## **1. naver 등록**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+
+<br/>
+
+## **1. Daum 등록**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
 <br/>

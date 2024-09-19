@@ -1,1 +1,3 @@
-https://search.google.com/search-console
+구글 서치콘솔 : https://search.google.com/search-console
+구글 에드센스 : https://www.google.com/adsense
+구글 애널리틱스 : https://analytics.google.com/analytics
