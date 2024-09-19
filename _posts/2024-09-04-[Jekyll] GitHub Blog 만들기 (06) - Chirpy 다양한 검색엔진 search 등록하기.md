@@ -32,6 +32,22 @@ Date : 2024 / 09 / 05 <br/>
 ## **1. naver 등록**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
+### 1.1) naver search advisor접속
+[**naver search advisor**](https://searchadvisor.naver.com/)에 접속 후 아래 사진과 같이 `웹마스터 도구 사용하기`를 클릭합니다.
+![Desktop View](/assets/img/20240906_post/naver_search_advisor_01.JPG){: width="800" height="400"}
+
+### 1.2) URL 등록
+아래 URL 기입부분에 블로그 링크를 넣어줍니다.
+![Desktop View](/assets/img/20240906_post/naver_search_advisor_02.JPG){: width="800" height="400"}
+
+### 1.3) 사이트 소유 확인
+사이트 소유확인은 아래 사진과 같이 두가지 방법이 있습니다.
+![Desktop View](/assets/img/20240906_post/naver_search_advisor_03.JPG){: width="800" height="400"}
+  - HTML 파일 업로드  
+    - 파일을 다운로드후 최상위 디렉토리인 `_config.yml`이 있는 폴더에 넣어줍니다.
+  - HTML 태그 복사  
+    - 태그를 복사 후 `_includes` 폴더 안에있는 `head.html`에 복사하여줍니다.
+
 <br/>
 
 ## **2. Daum 등록**
