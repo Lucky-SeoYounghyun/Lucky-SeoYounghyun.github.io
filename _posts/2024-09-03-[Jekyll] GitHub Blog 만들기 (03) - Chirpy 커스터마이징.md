@@ -30,6 +30,8 @@ Date : 2024 / 09 / 01 <br/>
 <br/>
 
 ## **1. 기본적인 파일 설명**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+
 chirpy에는 다양한 커스텀 기능들을 구현할 수 있습니다.  
 이번 포스팅에서 사용하는 파일들을 위주로 설명하였습니다.  
 
