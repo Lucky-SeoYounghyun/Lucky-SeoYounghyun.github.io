@@ -5,7 +5,7 @@ author:
 date: 2024-09-10 18:17:00 +0900
 categories: [코딩지식, 개발방법론]
 tags: [개발 방법론, 폭포수 모델]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:

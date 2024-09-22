@@ -5,7 +5,7 @@ author:
 date: 2024-08-08 11:33:00 +0900
 categories: [KT aivle school, 합격후기]
 tags: [KT aivle school]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

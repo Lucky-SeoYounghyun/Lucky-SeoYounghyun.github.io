@@ -5,7 +5,7 @@ author:
 date: 2024-09-01 11:33:00 +0900
 categories: [Jekyll, 환경설정]
 tags: [Ruby, Node.js]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:

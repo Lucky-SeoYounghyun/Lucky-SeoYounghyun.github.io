@@ -5,7 +5,7 @@ author:
 date: 2024-09-05 19:27:00 +0900
 categories: [Jekyll, search engine]
 tags: [Chirpy, search, google]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:

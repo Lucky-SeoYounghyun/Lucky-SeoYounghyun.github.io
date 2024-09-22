@@ -5,7 +5,7 @@ author:
 date: 2024-09-03 18:00:00 +0900
 categories: [Jekyll, Chirpy]
 tags: [Chirpy, 커스터마이징]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:

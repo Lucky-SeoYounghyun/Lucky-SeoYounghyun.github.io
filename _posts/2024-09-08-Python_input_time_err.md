@@ -5,7 +5,7 @@ author:
 date: 2024-09-08 20:27:00 +0900
 categories: [코딩지식, python]
 tags: [python]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:

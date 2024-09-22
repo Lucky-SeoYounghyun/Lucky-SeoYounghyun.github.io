@@ -5,7 +5,7 @@ author:
 date: 2024-09-11 19:33:10 +0900
 categories: [코딩지식, 개발방법론]
 tags: [개발 방법론, 칸반, XP, 린]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:

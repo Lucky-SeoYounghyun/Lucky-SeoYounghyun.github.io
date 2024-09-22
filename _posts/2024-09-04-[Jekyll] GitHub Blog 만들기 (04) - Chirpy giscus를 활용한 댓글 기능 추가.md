@@ -5,7 +5,7 @@ author:
 date: 2024-09-04 19:00:00 +0900
 categories: [Jekyll, giscus]
 tags: [Chirpy, giscus, 댓글기능]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:

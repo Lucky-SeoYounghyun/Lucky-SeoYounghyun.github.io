@@ -5,7 +5,7 @@ author:
 date: 2024-09-07 19:00:00 +0900
 categoranalyticsies: [Jekyll, analytics]
 tags: [Chirpy, analytics]
-pin: true
+pin: false
 math: true
 mermaid: true
 # image:
