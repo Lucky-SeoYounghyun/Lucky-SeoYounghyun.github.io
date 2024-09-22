@@ -1,5 +1,5 @@
 ---
-title: "[Python] 입력값의 차이 - input(), sys.stdin.readline() 그 차이를 찾아서"
+title: "[Python] 입력값의 차이 - input(), sys.stdin.readline() 시간초과 그 차이를 찾아서"
 description: 
 author:
 date: 2024-09-08 20:27:00 +0900
