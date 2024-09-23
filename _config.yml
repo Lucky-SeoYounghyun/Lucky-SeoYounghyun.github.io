@@ -123,9 +123,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: Lucky-SeoYounghyun/Lucky-SeoYounghyun.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOMuidaQ
+    repo_id: R_kgDOM1ypYQ
     category: Announcements
-    category_id: DIC_kwDOMuidac4CiWNG
+    category_id: DIC_kwDOM1ypYc4CitOX
     mapping: pathname # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
@@ -150,7 +150,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 5
 
 # The base URL of your site
 baseurl: ""
