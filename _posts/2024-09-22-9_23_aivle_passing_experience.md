@@ -1,8 +1,8 @@
 ---
-title: "[KT AIVLE] KT 에이블 스쿨 6기 AI 최종 합격 후기(서류, 코딩테스트, 인적성) 및 사소한 팁2"
+title: "[KT AIVLE] KT 에이블 스쿨 6기 AI 최종 합격 후기(서류, 코딩테스트, 인적성) 및 사소한 팁"
 description: 
 author:
-date: 2024-08-08 11:33:00 +0900
+date: 2024-09-23 11:33:00 +0900
 categories: [KT aivle school, 합격후기]
 tags: [KT aivle school]
 pin: false
