@@ -738,6 +738,8 @@ $btn-mb: 0.5rem;
   }
 
   .site-title {
+    @extend %clickable-transition;
+    @extend %sidebar-link-hover;
     font-family: inherit;
     font-weight: 1000;
     font-size: 2.20rem;
@@ -746,12 +748,15 @@ $btn-mb: 0.5rem;
     margin-top: 1.25rem;
     margin-bottom: -0.25rem; //이부분 수정함 기존 0.5rem
 
-    a {
-      @extend %clickable-transition;
-      @extend %sidebar-link-hover;
+    // a {
+    //   @extend %clickable-transition;
+    //   @extend %sidebar-link-hover;
 
-      color: var(--site-title-color);
-    }
+    //   color: var(--site-title-color);
+    // }
+    width: fit-content;
+    color: var(--site-title-color);
+
   }
   
   .site-status-subtitle {

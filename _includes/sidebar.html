@@ -24,9 +24,11 @@
       {%- endif -%}
     </a>
 
-    <h1 class="site-title">
+    <!-- <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    </h1>
+    </h1> -->
+
+    <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     <p class="site-status-subtitle fst-italic mb-0">{{ site.tagline2 }}</p>
     <p class="site-subtitle mb-0">{{ site.tagline }}</p>
     <!-- <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p> 사이드바 기울기 부분이나 삭제함-->
