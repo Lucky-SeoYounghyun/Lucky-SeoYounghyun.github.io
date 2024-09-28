@@ -2,7 +2,7 @@
 title: "[개발 방법론] - 개발 방법론의 종류"
 description: 
 author:
-date: 2024-09-09 18:17:00 +0900
+date: 2024-09-10 18:17:00 +0900
 categories: [코딩지식, 개발방법론]
 tags: [개발 방법론]
 pin: false
