@@ -2,7 +2,7 @@
 title: "[개발 방법론] - 애자일(Agile) 방법론의 종류"
 description: 
 author:
-date: 2024-09-11 19:33:10 +0900
+date: 2024-09-12 19:33:10 +0900
 categories: [코딩지식, 개발방법론]
 tags: [개발 방법론, 스크럼, 칸반, XP, 린]
 pin: false
