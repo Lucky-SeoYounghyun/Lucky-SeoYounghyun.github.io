@@ -129,6 +129,69 @@ selenium 이용
 속도차이
 - requests json > requests html > selenium
 
+### 1.10) HTML
+HTML 이란?
+- HTML은 Hyper Text Markup Language의 약자로 웹 문서를 작성하는 마크업 언어 입니다.
+
+HTML 구성 요소
+- Document : 한페이지를 나타내는 단위
+- Element : 하나의 레이아웃을 나타내는 단위 : 시작태그, 끝태그, 텍스트로 구성
+- Tag : 엘리먼트의 종류를 정의 : 시작태그(속성값), 끝태그
+- Attribute : 시작태그에서 태그의 특정 기능을 하는 값
+  - id : 웹 페이지에서 유일한 값
+  - class : 동일한 여러개의 값 사용 가능 : element를 그룹핑 할때 사용
+  - attr : id와 class를 제외한 나머지 속성들s
+- Text : 시작태그와 끝태그 사이에 있는 문자열
+- 엘리먼트는 서로 계층적 구조를 가질수 있습니다.
+
+HTML 구조
+- DOCTYPE
+  - 문서의 종류를 선언하는 태그 입니다.
+- html
+  - head
+    - meta
+      - 웹페이지에 대한 정보를 넣습니다.
+    - title
+      - 웹페이지의 제목 정보를 넣습니다.
+  - body
+    - 화면을 구성하는 엘리먼트가 옵니다.
+
+```html
+<!-- HTML 웹문서의 기본적인 구조 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title></title>
+</head>
+<body>
+</body>
+</html>
+```
+
+HTML 태그
+- head
+  - h1, h2, h3...
+- p(한줄의 문자열을 출력하기 위한 태그)
+- span(한블럭의 문자열을 표현하기 위한 태그)
+- pre(줄바꿈이나 띄어쓰기가 적용되는 태그)
+- code(코드를 작성하는 태그, 들여쓰기나 두칸 이상의 공백은 적용이 안됨)
+
+문자 이외의 HTML 태그
+- div(레이아웃을 나타내는 태그)
+- table(로우와 컬럼이 있는 테이블 모양을 나타낼때 사용하는 태그)
+- ul, li(리스트를 나타내는 태그)
+- a(링크를 나타내는 태그)
+- image
+- iframe
+- input
+  - text
+  - password
+  - radio
+  - select, option
+  - textarea
+  - button
+
 이번주는 실습을 위주로 진행하였으며 아래 링크에 업로드 하였습니다.
 [실습코드](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/web)
 
