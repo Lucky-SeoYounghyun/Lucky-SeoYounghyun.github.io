@@ -290,10 +290,12 @@ print(mean_absolute_error(y_test, y_pred))
 
 오차 절대값의 합
 - MAE
-  - $\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$
+  - $\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} \vert y_i - \hat{y}_i \vert$
 
 - MAPE
-  - $\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right|$
+  - $\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left\vert \frac{y_i - \hat{y}_i}{y_i} \right\vert$
+
+
 
 오차를 바라보는 다양한 관점
 ![Desktop View](/assets/img/20240929_post/view.JPG){: width="800" height="400"}
