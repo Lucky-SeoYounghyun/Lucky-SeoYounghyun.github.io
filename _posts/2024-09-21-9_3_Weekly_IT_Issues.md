@@ -2,7 +2,7 @@
 title: "[주간 이슈] - 9월 3주차 IT이슈 및 분석"
 description: 
 author:
-date: 2024-09-22 23:33:10 +0900
+date: 2024-09-21 23:33:10 +0900
 categories: [주간 IT Issues, 24년 9월]
 tags: [IT issues]
 pin: false

@@ -1,5 +1,5 @@
 ---
-title: "[KT AIVLE] 2주차 정리(opening day, git, python 기초)"
+title: "[KT AIVLE] 1주차 정리(opening day, git, python 기초)"
 description: 
 author:
 date: 2024-09-08 23:00:00 +0900
