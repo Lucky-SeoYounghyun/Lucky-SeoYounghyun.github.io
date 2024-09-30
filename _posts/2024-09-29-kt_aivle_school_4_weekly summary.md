@@ -312,6 +312,37 @@ print(mean_absolute_error(y_test, y_pred))
 
 ### 3.4 ) 분류모델 성능 평가
 
+![Desktop View](/assets/img/20240929_post/model.JPG){: width="800" height="400"}
+- TN(True Negative, 진음성): 음성으로 잘 예측한 것(음성을 음성이라고 예측한 것)
+- FP(False Positive, 위양성): 양성으로 잘 못 예측한 것(음성을 양성이라고 예측한 것)
+- FN(False Negative, 위음성): 음성으로 잘 못 예측한 것(양성을 음성이라고 예측한 것)
+- TP(True Positive, 진양성): 양성으로 잘 예측한 것(양성을 양성이라고 예측한 것)
 
+$ \text{정확도 - Accuracy} = \frac{TN + TP}{TN + FP + FN + TP} $
+- 정분류율 이라고도 함
+- 전체중에 맞힌거
+
+$ \text{정밀도 - Precision} = \frac{TP}{FP + TP} $
+- 정밀도가 낮으면 -예측도가 낮은거임
+- 정답이라고 예측한것중 진짜 정답인 비율
+
+$ \text{재현율 - Recall} = \frac{TP}{FN + TP} $
+- 정답들중에 정답이라고 예측한 비율
+
+$ \text{특이도 - Specificity} = \frac{TN}{TN + FP} $
+- Negative 중에 Nagative라고 예측한 비율(재현율의 반대?)
+
+$ \text{F1-score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} $
+- 정밀도와 재현율의 조화 평균
+
+코드 : classification_report
+
+```python
+from sklearn.metrics import classification_report
+
+print(classification_report(y_test, y_pred))
+```
+
+### 3.4 ) 실습 코드
 머신러닝 또한 실습 위주로 진행하였으며 코드는 git에 업로드 하였습니다.
 [실습코드](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/ML/2024.09.26)
