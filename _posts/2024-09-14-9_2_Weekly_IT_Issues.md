@@ -44,14 +44,14 @@ mermaid: true
 
 ### 1.3 ) 아니...왜?
 이 프로그램이 보안 프로그램이라는데에 있습니다.  
-이는 Windows에서 높은 권한과 컴퓨터 모니터링을 통해 시스템 보안을 강화하기 위해서 일부 파일들을 부팅과 동시에 시작되는 Boot-Sart 드라이버로 설정되어있습니다.
-하지만 이 파일중 일부인 `Channel File 291(C-00000291-XXXX.sys)`가 말썽을 일으켰습니다.
+이는 Windows에서 높은 권한과 컴퓨터 모니터링을 통해 시스템 보안을 강화하기 위해서 일부 파일들을 부팅과 동시에 시작되는 Boot-Sart 드라이버로 설정되어있습니다.  
+이러한 시작 드라이버로 설정되어있는 파일중 일부인 `Channel File 291(C-00000291-XXXX.sys)`가 말썽을 일으켰습니다.
 
 - **문제를 일으킨 순서**
   - 업데이트
   - `IPC 템플릿 유형 정의 불일치` Channel File 291(C-00000291-XXXX.sys)의 `IPC 템플릿 정의에는 21개의 입력 템플릿을 요구`하였습니다만...
-> IPC 템플릿이란 프로세스간 통신을 모니터링하고 탐지하기 위해 설계된 탐지 규칙과 입력 데이터 구조를 기술한 템플릿이다.
-{: .prompt-info }
+    > IPC 템플릿이란 프로세스간 통신을 모니터링하고 탐지하기 위해 설계된 탐지 규칙과 입력 데이터 구조를 기술한 템플릿이다.
+    {: .prompt-info }
   - 어라라...? `Content Interpreter(내용 해석기)는 20개의 입력만을 처리`하도록 설정되어있음
   - 입력 필드 불일치로인해 21번째 입력 필드를 찾으려고할때 메모리 배열의 범위를 벗어난 잘못된 메모리 주소를 참고하여 `메모리 접근 오류(Out of Bounds Read)` 발생
   - 컴퓨터 다운 즉 블루스크린이 발생
@@ -89,7 +89,7 @@ mermaid: true
   - 입력 필드수 검증, 템플릿 인스턴스가 내용 해석기와 올바르게 일치하는지 확인하는 검증 로직 추가
   - Content Validator(CrowdStrike의 내부 검증 도구)가 입력 필드의 개수와 구성을 감지하고 문제가 있는 파일이 생성되지 않도록 검증 프로세스 강화
 
--Content Validator(CrowdStrike의 내부 검증 도구)에 추가 검증 항목 추가
+- Content Validator(CrowdStrike의 내부 검증 도구)에 추가 검증 항목 추가
   - Content Validator에 새로운 검증 항목을 추가하여, 입력 필드가 정의된 개수와 일치하는지, 잘못된 데이터 구조가 포함되지 않았는지 확인하도록 강화
 
 - Content Interpreter(내용 해석기)에 경계 검사 기능 추가
@@ -103,5 +103,6 @@ Channel File 291(C-00000291-XXXX.sys)가 총 21개의 입력 필드를 가지고
 
 ## **출처**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
-[Remediation and Guidance Hub:Channel File 291 Incident](https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/)
+[Remediation and Guidance Hub:Channel File 291 Incident](https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/)  
+
 [Preliminary Post Incident Report](https://www.crowdstrike.com/blog/falcon-content-update-preliminary-post-incident-report/)
