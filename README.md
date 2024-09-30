@@ -1,4 +1,4 @@
-# this is my blog
+# IT공부 및 각종 IT분야 기술을 설명하는 블로그 입니다.
 
 ## License
 
