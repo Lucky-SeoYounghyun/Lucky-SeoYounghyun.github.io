@@ -1,5 +1,5 @@
-# this is my blog
-
+# ZeroMaster의 블로그
+IT공부 및 각종 IT분야 기술을 설명하는 블로그 입니다.
 ## License
 
 This project is published under [MIT License][license].
