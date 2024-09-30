@@ -1,5 +1,5 @@
 ---
-title: "[주간 이슈] - 9월 3주차 IT이슈 및 분석"
+title: "[주간 이슈] - 9월 3주차 IT이슈 및 분석(GitLab)"
 description: 
 author:
 date: 2024-09-21 23:33:10 +0900
