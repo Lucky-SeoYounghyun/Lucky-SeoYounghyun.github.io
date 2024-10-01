@@ -3,7 +3,7 @@ title: "[KT AIVLE] 2주차 정리(데이터 처리, 데이터 분석 및 의미�
 description: 
 author:
 date: 2024-09-15 23:00:00 +0900
-categories: [KT aivle school, 2주차 정리]
+categories: [KT aivle school, 9월]
 tags: [KT aivle school]
 pin: false
 math: true

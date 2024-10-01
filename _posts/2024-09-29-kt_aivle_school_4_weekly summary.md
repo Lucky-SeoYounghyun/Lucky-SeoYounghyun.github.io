@@ -3,7 +3,7 @@ title: "[KT AIVLE] 4주차 정리(웹크롤링, 미니프로젝트 1차, 머신�
 description: 
 author:
 date: 2024-09-29 20:00:00 +0900
-categories: [KT aivle school, 4주차 정리]
+categories: [KT aivle school, 9월]
 tags: [KT aivle school]
 pin: false
 math: true
