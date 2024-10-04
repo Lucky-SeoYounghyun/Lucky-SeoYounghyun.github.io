@@ -120,8 +120,7 @@ print(classification_report(y_test, y_pred))
 - 스무고개처럼 질문형식
 - 훈련 데이터에 대한 제약 사항이 거의 없는 유연한 모델 -> 과적합으로 모델 성능이 떨어지기 쉬움 -> 트리 깊이를 제한하는(=가지치기) 튜닝이 필요
 ![Desktop View](/assets/img/20240930_post/Decision_Tree.JPG){: width="800" height="400"}
-![Desktop View](/assets/img/20240930_post/Decision_Tree_2
-.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20240930_post/Decision_Tree_2.JPG){: width="800" height="400"}
 
 - 불순도(Impurity)
   - 순도가 높을 수록 분류가 잘 된 것임
