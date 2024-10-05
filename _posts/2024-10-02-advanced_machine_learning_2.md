@@ -213,6 +213,6 @@ model = GridSearchCV(knn_model, param, cv=3)
 
 <br/>
 
-## **3. 실습 코드**
+## **5. 실습 코드**
 머신러닝 또한 실습 위주로 진행하였으며 코드는 git에 업로드 하였습니다.  
 [실습코드](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/ML/2024.09.26)
