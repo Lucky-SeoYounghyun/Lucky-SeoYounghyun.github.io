@@ -23,7 +23,7 @@ image:
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 저번주에 이어서 금일도 머신러닝에대해 배웠습니다.
 
-## 2. 기본 알고리즘
+## **2. 기본 알고리즘**
 ### **2.1 ) Linear Regression(회귀 모델에만 사용)**
   - 단순회귀 : x값 하나만으로 y값을 설명할 수 있는 경우
 ```python
@@ -245,6 +245,6 @@ print(classification_report(y_test, y_pred))
   - Depth(깊이): 뿌리 마디로부터 끝 마디까지 연결된 마디 개수(오른쪽 트리의 경우 5)
 
 
-### 3 ) 실습 코드
-머신러닝 또한 실습 위주로 진행하였으며 코드는 git에 업로드 하였습니다.
+## **3. 실습 코드**
+머신러닝 또한 실습 위주로 진행하였으며 코드는 git에 업로드 하였습니다.  
 [실습코드](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/ML/2024.09.26)
