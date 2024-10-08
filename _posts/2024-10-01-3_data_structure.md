@@ -14,9 +14,6 @@ image:
   alt: data_structure.jpg
 ---
 
-
-
-
 ## **0. 들어가기전에**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 본 포스트는 예전에 공부하였던 자료구조를 복습하는 의미에서 진행하는 공부이며 자세한 설명은 없이 중요한 키워드 중심으로 정리됩니다.  
