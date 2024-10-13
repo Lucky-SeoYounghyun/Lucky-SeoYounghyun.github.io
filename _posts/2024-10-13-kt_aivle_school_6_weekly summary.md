@@ -2,7 +2,7 @@
 title: "[KT AIVLE] 5주차 정리(2차 미니프로젝트, 딥러닝)"
 description: 
 author:
-date: 2024-10-06 13:00:00 +0900
+date: 2024-10-13 13:00:00 +0900
 categories: [KT aivle school, 10월]
 tags: [KT aivle school]
 pin: false
@@ -17,6 +17,7 @@ image:
 
 ## **0. 개요**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
+
 머신러닝 미니 프로젝트와 딥러닝을 진행하였습니다.
 
 >[2차 미니 프로젝트_01](https://lucky-seoyounghyun.github.io/posts/aivle_second_mini_project_1/)  
@@ -43,7 +44,18 @@ image:
   </table>
 </div>
 
-## **1. 딥러닝**
+<br>
+
+## **1. 2차 미니 프로젝트**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
+
+2차 미니 프로젝트에서는 1차 미니프로젝트에서 간과했던 시간관리를 보다 체계적으로 관리하여 제한시간안에 PPT제작까지 끝마칠 수 있었습니다.
+또한 이번 프로젝트를 통해 머신러닝에서 추가적으로 무엇을 배워야할지, 앞으로 어떤것을 공부해야할지를 알 수 있었습니다.
+이외에 세부적인 정리내용은 각 `2차 미니프로젝트 각 일차별 정리` 에 기록하였습니다.
+
+<br>
+
+## **2. 딥러닝**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 
 최종 summary를 진행하겠습니다.
@@ -69,35 +81,63 @@ image:
       - 비선형 모델로 만들려고 ➔ hidden layer를 여럿 쌓아서 성능을 높이려고.
     - 회귀 모델링에서 Output Layer에는 활성화 함수 필요하지 않음!
 
-<div style="text-align: center;">
-  <table border="0" cellpadding="5" cellspacing="0" style="margin: 0 auto;">
-    <tr>
-      <th rowspan="2" style="text-align: center;">구분</th>
-      <th colspan="2" style="text-align: center;">Hidden Layer</th>
-      <th colspan="2" style="text-align: center;">Output Layer</th>
-      <th colspan="2" style="text-align: center;">Compile</th>
-    </tr>
-    <tr>
-      <th style="text-align: center;">Activation</th>
-      <th style="text-align: center;">Activation</th>
-      <th style="text-align: center;">Node수</th>
-      <th style="text-align: center;">optimizer</th>
-      <th style="text-align: center;">loss</th>
-    </tr>
-    <tr>
-      <td style="text-align: center;">Regression</td>
-      <td style="text-align: center;">relu</td>
-      <td style="text-align: center;">X</td>
-      <td style="text-align: center;">1</td>
-      <td style="text-align: center;">adam</td>
-      <td style="text-align: center;">mse</td>
-    </tr>
-  </table>
-</div>
+- Output Layer의 Activation
+  - Sigmoid : 0 ~ 1 사이 확률 값으로 변환해주는 역할
+-Loss Function : binary_crossentropy
 
+- 다중분류를 위해 y 값 전처리 필요
+  - 방법1 : y값을 0,1,2,3,… 로 만들고, loss = ‘sparse_categorical_crossentropy’
+  - 방법2 : y값을 one-hot encoding 하고, loss = ‘categorical_crossentropy’
+- Output Layer의 Activation
+  - softmax : 0 ~ 1 사이 확률 값으로 변환해주는 역할
+
+- 총 정리
+
+<table border="0" cellpadding="5" cellspacing="0" style="margin: 0 auto; border-collapse: collapse;">
+  <tr>
+    <th rowspan="2" style="text-align: center;">구분</th>
+    <th colspan="1" style="text-align: center;">Hidden Layer</th>
+    <th colspan="2" style="text-align: center;">Output Layer</th>
+    <th colspan="2" style="text-align: center;">Compile</th>
+  </tr>
+  <tr>
+    <th style="text-align: center;">Activation</th>
+    <th style="text-align: center;">Activation</th>
+    <th style="text-align: center;">Node수</th>
+    <th style="text-align: center;">optimizer</th>
+    <th style="text-align: center;">loss</th>
+  </tr>
+  <tr>
+    <td style="text-align: center;">Regression</td>
+    <td style="text-align: center;">relu</td>
+    <td style="text-align: center;">X</td>
+    <td style="text-align: center;">1</td>
+    <td style="text-align: center;">adam</td>
+    <td style="text-align: center;">mse</td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">2-Class</td>
+    <td style="text-align: center;">relu</td>
+    <td style="text-align: center;">sigmoid</td>
+    <td style="text-align: center;">1</td>
+    <td style="text-align: center;">adam</td>
+    <td style="text-align: center;">binary_crossentropy</td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">Multi-Class</td>
+    <td style="text-align: center;">relu</td>
+    <td style="text-align: center;">softmax</td>
+    <td style="text-align: center;">Class수</td>
+    <td style="text-align: center;">adam</td>
+    <td style="text-align: center;">sparse_categorical_crossentropy<br>categorical_crossentropy</td>
+  </tr>
+</table>
+
+<br>
 
 ## 2 ) 실습 코드
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 
-머신러닝 또한 실습 위주로 진행하였으며 코드는 git에 업로드 하였습니다.
-[실습코드](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/ML/2024.09.26)
+2차 프로젝트와 딥러닝 코드는 git에 업로드 하였습니다.  
+[2차 미니 프로젝트](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/mini_project_02)  
+[딥러닝](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/DL)

@@ -19,9 +19,13 @@ image:
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 원래 주간내용으로 정리하지만 해당내용은 주간 정리로만 담기에는 한계가 있어 심화학습 내용을 추가적으로 정리하고자 합니다.
 
+<br>
+
 ## **1. 딥러닝 정리**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 오늘은 딥러닝 1일차입니다! 많은것을 배우지는 않았지만 알아야할 내용이 많아 추가 정리합니다.
+
+<br>
 
 ## **2. 회귀 모델링**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
