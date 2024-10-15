@@ -2,7 +2,7 @@
 title: "[KT AIVLE] 딥러닝 3일차 - 심화학습"
 description: 
 author:
-date: 2024-10-14 19:15:17 +0900
+date: 2024-10-14 19:15:15 +0900
 categories: [KT aivle school, 딥러닝]
 tags: [KT aivle school]
 pin: false
