@@ -40,15 +40,15 @@ image:
   - 모델링 : train err를 최소화 하는 모델을 생성
   - 모델 튜닝 : validation err를 최소화 하는 모델 선정
 - 평가 지표
-![Desktop View](/assets/img/20241011_post/performance_metrics.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/performance_metrics.JPG){: width="800" height="400"}
 
 - 간단한 딥러닝 모델 표현 방법
   - 선형 회귀 모델
-![Desktop View](/assets/img/20241011_post/model.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/model.JPG){: width="800" height="400"}
 
 
 - 딥러닝과 머신러닝의 코드 순서 차이
-![Desktop View](/assets/img/20241011_post/code_step.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/code_step.JPG){: width="800" height="400"}
 
 ### 딥러닝 개념 이해
 - 가중치
@@ -58,9 +58,9 @@ image:
   - 지정된 횟수만큼 혹은 더이상 오차가 줄지 않을때까지
   - 즉! 오차를 최소화 하는 파라미터(가중치)를 찾는다!
 - 학습 절차
-![Desktop View](/assets/img/20241011_post/model_step.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/model_step.JPG){: width="800" height="400"}
 - 즉 코드로 `model.fit`를 하는 순간 아래와 같이 동작한다.
-![Desktop View](/assets/img/20241011_post/model_fit.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/model_fit.JPG){: width="800" height="400"}
 
 ### 딥러닝 모델링
 - 스케일링
@@ -82,7 +82,7 @@ x_val = scaler.transform(x_val)
 ```
 
 - 딥러닝 구조
-![Desktop View](/assets/img/20241011_post/dl_structured.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/dl_structured.JPG){: width="800" height="400"}
 
 ```python
 # 메모리 정리
@@ -129,7 +129,7 @@ history = model.fit(x_train, y_train, epochs = 20, validation_split=0.2).history
   - 학습 결과를 좋게 하기위해
   - 보통 활성 함수로 relu 사용
   - 예측 결과는 1개
-![Desktop View](/assets/img/20241011_post/hidden_layer.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/hidden_layer.JPG){: width="800" height="400"}
 
 ```python
 model3 = Sequential([Input(shape = (nfeatures,)), Dense(2, activation = 'relu'), Dense(1) ])
@@ -137,10 +137,10 @@ model3 = Sequential([Input(shape = (nfeatures,)), Dense(2, activation = 'relu'),
 - 활성함수?
   - 현재 레이어의 결과값을 다음 레이어로 어떻게 전달할지 결정/변환해주는 함수
   - 없으면?
-![Desktop View](/assets/img/20241011_post/activation_function.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/activation_function.JPG){: width="800" height="400"}
     - 다음과 같이 히든 레이어를 여러개 추가해도 그냥 선형회귀 가 되어버림...
   - 활성함수는 hidden layer에서는 선형함수를 비선형 함수로 변환, Output layer에서는 결과값을 다른 값으로 변환해주는 역할을 함
-![Desktop View](/assets/img/20241011_post/Relu.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/Relu.JPG){: width="800" height="400"}
 
 <div style="text-align: center;">
   <table border="0" cellpadding="5" cellspacing="0" style="margin: 0 auto;">

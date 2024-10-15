@@ -36,16 +36,16 @@ Hidden layer에서는 뭔일이 일어날까?
   - 기존 데이터를 받아서 새로운 특징을 만들어냄
   - 그 특징은 예측값과 실제 값 사이의 오차를 최소화 해주는 유익한 특징
   - hidden layer에서는 기존 데이터가 새롭게 표현 되었으며 Feature Engineering가 진행되었음
-![Desktop View](/assets/img/20241011_post/DL_ML.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/DL_ML.JPG){: width="800" height="400"}
 
 <br>
 
 ## **2. 이진 분류**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 - Yes or No
-![Desktop View](/assets/img/20241011_post/0_1.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/0_1.JPG){: width="800" height="400"}
 - Node의 결과를 변환해주는 함수가 필요 : 활성함수 라고 함
-![Desktop View](/assets/img/20241011_post/af_output.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/af_output.JPG){: width="800" height="400"}
 - Loss Function : binary_crossentropy
   - 모델의 예측 값과 실제 레이블 간의 차이를 로그 확률로 계산하여 손실을 측정
   - 출력 결과를 0 or 1로 출력
@@ -61,10 +61,10 @@ Softmax
 - 각 class별로 예측한 값을 하나의 확률 값으로 변환
 다중 분류 오차 계산
 - cross entropy : 실제값이 1인 class와 예측 확률 비교  
-![Desktop View](/assets/img/20241011_post/cross_entropy.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/cross_entropy.JPG){: width="800" height="400"}
 - 다중분류 모델링을 위한 전처리
   - 다중분류 : T가 범주이고, 범주가 3개 이상!
-![Desktop View](/assets/img/20241011_post/multi_class_classification.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241010_post/multi_class_classification.JPG){: width="800" height="400"}
 - 방법1 : 정수 인코딩 + sparse_categorical_crossentropy
   - y : Integer Encoding
   - loss='sparse_categorical_crossentropy’
