@@ -1,5 +1,5 @@
 ---
-title: "[KT AIVLE] 딥러닝 3일차 - 심화학습"
+title: "[KT AIVLE] 딥러닝 4일차 - 심화학습"
 description: 
 author:
 date: 2024-10-15 18:15:17 +0900
