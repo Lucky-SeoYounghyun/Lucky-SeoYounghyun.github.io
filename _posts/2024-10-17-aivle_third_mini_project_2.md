@@ -1,9 +1,8 @@
 ---
----
-title: "[KT AIVLE] 미니 프로젝트 3차 (01) 스마트폰 센서 데이터 기반 모션 분류"
+title: "[KT AIVLE] 미니 프로젝트 3차 (02) 스마트폰 센서 데이터 기반 모션 분류"
 description: 
 author:
-date: 2024-10-16 22:04:41 +0900
+date: 2024-10-17 22:04:41 +0900
 categories: [KT aivle school, 미니 프로젝트]
 tags: [KT aivle school, third_mini_project]
 pin: false
@@ -19,9 +18,9 @@ image:
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 안녕하세요!  
 
-이번에는 aivle school에서 세번째 미니프로젝트를 진행하였습니다.  
+오늘은 3차 프로젝트 2일차를 진행하였습니다!
 
-프로젝트를 진행하면서 느낀점과 딥러닝 학습 방법들을 설명드리도록 하겠습니다!  
+다양한 학습 모델을 구현하였으며 이에대한 결과와 overfitting에대한 대응방법을 확실하게 알 수 있었습니다.
 
 또한 실습 코드는 아래 링크에서 확인하실 수 있습니다.  
 - [**미니프로젝트 jupyter 학습 코드**](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/mini_project_03)

@@ -1,8 +1,8 @@
 ---
-title: "[KT AIVLE] 미니 프로젝트 3차 (01) 스마트폰 센서 데이터 기반 모션 분류"
+title: "[KT AIVLE] 미니 프로젝트 3차 (03) 스마트폰 센서 데이터 기반 모션 분류"
 description: 
 author:
-date: 2024-10-16 22:04:41 +0900
+date: 2024-10-18 23:04:41 +0900
 categories: [KT aivle school, 미니 프로젝트]
 tags: [KT aivle school, third_mini_project]
 pin: false
