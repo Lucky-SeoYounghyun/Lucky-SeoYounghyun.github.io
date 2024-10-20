@@ -26,12 +26,16 @@ image:
 또한 실습 코드는 아래 링크에서 확인하실 수 있습니다.  
 - [**미니프로젝트 jupyter 학습 코드**](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/mini_project_03)
 
+<br>
+
 ## **1. 주제**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 
 - 스마트폰 센서 데이터 기반 모션 분류
 
 이번 미니프로젝트에서는 열이 500개가 넘는 데이터를 필요한 우선순우에따라 경량화하고 딥러닝으로 학습을 진행하는 방법을 다룹니다.  
+
+<br>
 
 ## **2. 중요도 확인**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
@@ -48,7 +52,9 @@ image:
 
 또한 Activity를 정적인 동작과 동적인 동작(0과 1)로 분류하여 해당 값에서는 어떤 요소가 중요도가 높은지 확인하였습니다.  
 
-## **4. 느낀점**
+<br>
+
+## **3. 느낀점**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 
 마지막날의 데이터는 pipline를 통하여 0과 1로 나는 데이터를 각 단계에서 세부 분류를 한후 통합하는 절차로 동작할것입니다.  

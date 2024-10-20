@@ -25,6 +25,8 @@ image:
 또한 실습 코드는 아래 링크에서 확인하실 수 있습니다.  
 - [**미니프로젝트 jupyter 학습 코드**](https://github.com/Lucky-SeoYounghyun/kt_aivle/tree/main/mini_project_03)
 
+<br>
+
 ## **1. 주제**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 
@@ -32,6 +34,8 @@ image:
 
 금일은 본 데이터에맞는 최적의 학습모델을 찾는 프로젝트를 진행하였습니다.
 이 아이디어로 학습시간에 학습했던 레이어 층을 쌓는 기법과 어제 학습했던 RandomForest에 의한 가중치에대한 학습 리스트를 통하여 구하는것이 있었습니다.
+
+<br>
 
 ## **2. 학습모델 구성**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
@@ -52,8 +56,9 @@ val값에 대해서는 96%정도의 정확도를 보여주었으며 test값에 �
 Function API를 통하여 각 특징을 주요 요소(ACC, GyRO, etc)로 구분하여 학습을 진행해보았습니다.
 이를 통하여 학습결과 98%정도의 정확도를 보여주었으며 이 방법은 pipline를 구성한 후 각 요소를 추출할때 더 우수한 성능을 보일것으로 추측하였습니다.
 
+<br>
 
-## **4. 느낀점**
+## **3. 느낀점**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 오늘은 다양한 학습방법을 통해 정확도를 비교하였으며 그중 최적의 모델을 내일 있을 최종 파이프라인에 사용하는것을 목표로 진행하였습니다.
 
