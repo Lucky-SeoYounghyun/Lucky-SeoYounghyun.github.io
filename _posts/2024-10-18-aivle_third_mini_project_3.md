@@ -32,7 +32,7 @@ image:
 - 모델 정확도를 높이기 위한 pipline 구성!
 
 금일은 지금까지 구성한 모델을 바탕으로 아래와 같은 pipline모델을 구성하엿습니다.  
-![Desktop View](/assets/img/202410158_post/pipline.JPG){: width="800" height="400"}
+![Desktop View](/assets/img/20241018_post/pipline.JPG){: width="800" height="400"}
 
 <br>
 
