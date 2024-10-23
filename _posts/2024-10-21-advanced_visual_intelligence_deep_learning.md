@@ -2,9 +2,9 @@
 title: "[KT AIVLE] 시각지능 딥러닝 1일차 - 심화학습"
 description: 
 author:
-date: 2024-10-21 08:04:41 +0900
-categories: [KT aivle school, 미니 프로젝트]
-tags: [KT aivle school, third_mini_project]
+date: 2024-10-21 22:04:41 +0900
+categories: [KT aivle school, 시각지능 딥러닝]
+tags: [KT aivle school]
 pin: false
 math: true
 mermaid: true
