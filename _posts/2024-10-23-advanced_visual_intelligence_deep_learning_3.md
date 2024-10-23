@@ -22,7 +22,7 @@ image:
 
 ## **1. 이전 학습 **
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
-Convolution Neural Network(CNN) :이미지 데이터를 훼손하지 않음
+Convolution Neural Network(CNN, 합성곱 신경망) : 이미지 데이터를 훼손하지 않음
 - 이미지 데이터 구조를 그대로 사용하여 접근과 더불어, 한번에 feature의 개성을 고려하기보다, 지역별 개성을 살려서 feature를 추출!
   - 필터가 움직이며 학습 -> feature map 생성!!
 - pooling(sub-sampling)
