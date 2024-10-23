@@ -2,7 +2,7 @@
 title: "[KT AIVLE] 시각지능 딥러닝 3일차 - 심화학습"
 description: 
 author:
-date: 2024-10-23 22:08:41 +0900
+date: 2024-10-23 18:33:41 +0900
 categories: [KT aivle school, 시각지능 딥러닝]
 tags: [KT aivle school]
 pin: false
