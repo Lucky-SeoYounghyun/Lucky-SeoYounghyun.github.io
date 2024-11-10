@@ -1,5 +1,5 @@
 ---
-title: "[KT AIVLE] 5주차 정리(2차 미니프로젝트, 딥러닝)"
+title: "[KT AIVLE] 6주차 정리(2차 미니프로젝트, 딥러닝)"
 description: 
 author:
 date: 2024-10-13 13:00:00 +0900
