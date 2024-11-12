@@ -2,7 +2,7 @@
 title: "[KT AIVLE] 미니 프로젝트 4차 (02) keras를 통한 이미지 분석"
 description: 
 author:
-date: 2024-10-28 23:00:00 +0900
+date: 2024-11-22 23:00:00 +0900
 categories: [KT aivle school, 에이블 데이]
 tags: [KT aivle school]
 pin: false
