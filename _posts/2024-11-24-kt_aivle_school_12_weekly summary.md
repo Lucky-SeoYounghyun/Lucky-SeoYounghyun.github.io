@@ -1,5 +1,5 @@
 ---
-title: "[KT AIVLE] 11주차 정리(6차 미니프로젝트, 1차 에이블 데이)"
+title: "[KT AIVLE] 12주차 정리(6차 미니프로젝트, 1차 에이블 데이)"
 description: 
 author:
 date: 2024-11-24 13:00:00 +0900

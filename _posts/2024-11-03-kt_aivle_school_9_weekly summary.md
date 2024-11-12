@@ -1,5 +1,5 @@
 ---
-title: "[KT AIVLE] 8주차 정리(4차 미니프로젝트)"
+title: "[KT AIVLE] 9주차 정리(4차 미니프로젝트)"
 description: 
 author:
 date: 2024-11-03 13:00:00 +0900
