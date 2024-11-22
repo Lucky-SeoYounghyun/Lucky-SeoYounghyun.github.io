@@ -1,8 +1,8 @@
 ---
-title: "[KT AIVLE] 미니 프로젝트 4차 (02) keras를 통한 이미지 분석"
+title: "[KT AIVLE] 미니 프로젝트 6차 (01) 이미지 인식을 통한 본인인증"
 description: 
 author:
-date: 2024-10-28 23:00:00 +0900
+date: 2024-11-18 23:00:00 +0900
 categories: [KT aivle school, 미니 프로젝트]
 tags: [KT aivle school, mini_project]
 pin: false
