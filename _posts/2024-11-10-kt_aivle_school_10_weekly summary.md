@@ -288,15 +288,9 @@ image:
    - 대규모 언어 모델을 활용한 애플리케이션 개발 라이브러리.  
    - 구성 요소: Prompt, Memory, Chain, Agent 등.  
 
----
+<br>
 
-## **17. 결론**
-<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
-
-이 문서는 자연어 처리 및 딥러닝의 주요 기술 발전, 모델 구조, 그리고 응용 사례를 포괄적으로 다룹니다. 특히 PLM과 LLM의 발전 과정을 통해 최신 연구와 실무 응용의 연결점을 제공합니다.
-
-
-## **18. 느낀점**
+## **17. 느낀점**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 
 언어지능 모델은 최근 생성형 모델이 많이 활성화되었고 시장이 열려있다는 느낌을 받았으며,  
@@ -305,7 +299,7 @@ image:
 
 <br>
 
-## **19. 실습 코드**
+## **18. 실습 코드**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 
 언어지능 딥러닝 실습 코드는 아래 링크에서 확인 가능합니다.    
