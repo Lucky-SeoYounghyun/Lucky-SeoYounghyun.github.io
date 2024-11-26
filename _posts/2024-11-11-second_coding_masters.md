@@ -28,7 +28,7 @@ image:
 ## **2차 코딩 마스터스**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
 
-![Desktop View](/assets/img/20241011_post/post.png){: width="800" height="400"}
+![Desktop View](/assets/img/20241111_post/post.png){: width="800" height="400"}
 
 코딩 마스터스란 KT Aivler를 위한 코딩 학습 프로그램입니다.  
 
