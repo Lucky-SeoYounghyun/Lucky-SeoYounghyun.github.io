@@ -4,7 +4,7 @@ description:
 author:
 date: 2024-10-28 23:00:00 +0900
 categories: [KT aivle school, 미니 프로젝트]
-tags: [KT aivle school, mini_project]
+tags: [KT aivle school]
 pin: false
 math: true
 mermaid: true
