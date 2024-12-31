@@ -1,0 +1,106 @@
+---
+title: "[KT AIVLE] Spring test - 심화학습"
+description: 
+author:
+date: 2024-12-12 21:21:17 +0900
+categories: [KT aivle school, Spring]
+tags: [KT aivle school]
+pin: false
+math: true
+mermaid: true
+image:
+  # path: /assets/img/20240912_post/KT_모집요강.jpg
+  # lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  # alt: ktaivel_image
+---
+
+
+## **0. 개요**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
+
+오늘도 어제에 이어서 css를 이어서 학습하였습니다.
+
+내용이 너무 많아 중요한점과 간과했던 점 위주로 정리를 하도록 하겠습니다.
+
+<br>
+
+## **1. css**
+배운 내용은 아래와 같습니다.
+
+1. 멀티미디어 태그
+  - img, video와 같은 태그
+2. 메타 태그
+  - viewport, keyword등과 같은 태그
+3. 미디어쿼리
+  - 미디어의 유형과 특정 조건에 따라 다른 스타일 규칙을 적용할 수 있게함
+4. 시맨틱태그
+
+| HTML 태그    | 설명                                                                          |
+|--------------|-------------------------------------------------------------------------------|
+| `<header>`   | 페이지나 섹션의 머리글 부분으로 로고, 제목, 네비게이션 등을 포함               |
+| `<nav>`      | 네비게이션 링크의 그룹을 정의함                                               |
+| `<section>`  | 문서의 일반적인 섹션을 나타내며 텍스트, 이미지, 동영상 등을 포함               |
+| `<article>`  | 독립적으로 구분되거나 재사용 가능한 구역                                      |
+| `<aside>`    | 메인 콘텐츠와는 약간 분리된 콘텐츠로 사이드바, 콜아웃, 광고 등에 사용          |
+| `<footer>`   | 페이지나 섹션의 바닥글 부분으로 저작, 연락처, 백링크 등을 포함                 |
+| `<main>`     | 문서의 주요 콘텐츠를 나타냄                                                   |
+
+5. css 선택자
+
+| 선택자 유형         | 설명                                                                 |
+|---------------------|----------------------------------------------------------------------|
+| 유형 선택자         | 특정 태그를 선택 (`div`)                                            |
+| 클래스 선택자       | 클래스 속성을 선택 (`.classname`)                                    |
+| ID 선택자          | ID 속성을 선택 (`#idname`)                                           |
+| 속성 선택자         | 속성을 기반으로 선택 (`[type="text"]`)                              |
+| 자식 선택자         | 특정 부모의 자식을 선택 (`div > p`)                                 |
+| 자손 선택자         | 특정 부모의 모든 후손을 선택 (`div p`)                              |
+| 인접 형제 선택자    | 특정 요소의 바로 다음 형제를 선택 (`h1 + p`)                         |
+| 일반 형제 선택자    | 특정 요소 뒤에 있는 모든 형제를 선택 (`h1 ~ p`)                      |
+| 가상 클래스         | 특정 상태의 요소를 선택 (`:hover`, `:focus`)                         |
+| 가상 요소           | 요소의 특정 부분에 새 콘텐츠를 추가 (`::before`, `::after`)         |
+
+6. 결합자
+
+| 결합자 유형          | 설명                                                                                 | 예제         |
+|----------------------|--------------------------------------------------------------------------------------|--------------|
+| 자식 결합자         | 한 선택자의 **직접 자식**인 다른 선택자를 선택                                         | `div > p`   |
+| 자손 결합자         | 한 선택자의 **모든 자손**인 다른 선택자를 선택                                         | `div p`     |
+| 인접 형제 결합자    | 한 선택자 **바로 다음에 있는 형제** 선택자를 선택                                       | `h1 + p`    |
+| 일반 형제 결합자    | 한 선택자 **뒤에 있는 모든 형제** 선택자를 선택                                         | `h1 ~ p`    |
+| 컬럼 결합자         | **그리드의 특정 컬럼**에 있는 요소들을 선택                                             | `||`        |
+
+7. css 규칙
+  - 우선순위(Specificity) 계산방법
+    - 선택자의우선순위는4개의다른값을사용하여측정되며, 4개의열에서Thousands, Hundreds, Tens, Ones 개의단일자릿수로간주됨
+  - !important는 그냥 가장 우선
+
+8. 텍스트 스타일링
+
+| 속성 유형                  | 설명                                                                                     | 예제                                              |
+|---------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------|
+| 색상 (Color)              | 텍스트의 모든 색상을 설정                                                                | `color: red;`                                    |
+| 글꼴 종류 (Font Family)    | 글꼴을 지정                                                                             | `font-family: Arial;`                            |
+| 웹 안전 글꼴 (Web Safe Fonts) | 대부분의 시스템에서 사용 가능한 글꼴                                                   | `Arial`, `Courier New`, `Georgia` 등              |
+| 기본 글꼴 (Generic Font Families) | 일반 글꼴로, 브라우저와 운영체제에 따라 다른 글꼴이 사용됨                                | `serif`, `sans-serif`, `monospace` 등             |
+| 글꼴 스택 (Font Stack)     | 여러 글꼴 이름을 목록으로 지정, 하나가 사용 불가능할 경우 다음 글꼴이 사용되도록 설정        | `font-family: "Trebuchet MS", Verdana, sans-serif;` |
+| 글꼴 스타일 (Font Style)   | 텍스트를 이탤릭체로 만들거나 일반체로 설정                                               | `normal`, `italic`, `oblique` 등                  |
+| 글꼴 두께 (Font Weight)    | 텍스트의 굵기를 정의                                                                    | `normal`, `bold`, `lighter`, `bolder` 등          |
+| 텍스트 변형 (Text Transform) | 텍스트의 대소문자 형태를 변경                                                          | `none`, `capitalize`, `uppercase`, `lowercase` 등 |
+| 텍스트 장식 (Text Decoration) | 텍스트에 밑줄, 취소선, 오버라인 등의 장식을 추가                                        | `none`, `underline`, `overline` 등                |
+| 텍스트 그림자 (Text Shadow) | 속성을 사용하여 텍스트에 그림자 효과를 추가                                              | `text-shadow: 2px 2px 2px grey;`                 |
+| 텍스트 정렬 (Text Align)           | `text-align` 속성으로 텍스트를 왼쪽, 오른쪽, 중앙, 양쪽 맞춤으로 정렬                            | `text-align: left;`, `text-align: center;`, `text-align: justify;` |
+| 선 높이 (Line Height)             | `line-height` 속성으로 텍스트 줄의 높이를 설정                                                  | `line-height: 1.5;` (주로 1.5 ~ 2 사이를 권장)              |
+| 문자 및 단어 간격 (Letter & Word Spacing) | `letter-spacing`, `word-spacing` 속성으로 문자와 단어 사이의 간격을 조절                        | `letter-spacing: 2px; word-spacing: 4px;`                  |
+| 기타 글꼴 스타일링 옵션             | 다양한 옵션을 통해 세부적인 글꼴 스타일링을 적용                                               | `font-variant`, `font-kerning`, `font-feature-settings`      |
+| 글꼴 약식 (Font Shorthand)         | `font` 속성을 사용하여 글꼴 스타일, 두께, 크기 등 여러 속성을 한 번에 설정                      | `font: italic bold 12px/1.5 Arial, sans-serif;`             |
+
+
+<br>
+
+## **7. 후기**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" /> 
+
+오늘도 css 복습 느낌으로 진행되었습니다!
+내일이면 css 마무리후 본격적인 spring이 진행될 예정입니다!
+그럼 이만!
