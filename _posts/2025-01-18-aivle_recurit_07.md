@@ -16,6 +16,9 @@ image:
 
 ## **0. KT 에이블 스쿨이란?**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+34세 이하의 미취업자, 대학 졸업 예정 혹은 졸업자를 대상으로한 AI 교육으로
+대략 6개원간의 실무 교육을 지원해주는 교육 프로그램입니다!
+실제로 저도 지금 6기로 참가하면서 많은 내용을 배울 수 있었습니다!
 
 
 ## **1. 선발 절차**
@@ -27,7 +30,7 @@ image:
 3. 코딩테스트 입니다. 
 
 이외에 자세한건 사항은 아래와 같습니다.
-![Desktop View](/assets/img/20240912_post/선발절차.PNG){: width="800" height="400"}
+![Desktop View](/assets/img/20240912_post/image.PNG){: width="800" height="400"}
 _KT Aivle School 선발절차_
 
 
@@ -43,3 +46,9 @@ _KT Aivle School 선발절차_
 
 ![Desktop View](/assets/img/20240912_post/지원자격.PNG){: width="800" height="400"}
 _KT Aivle School 지원자격_
+
+
+## **3. 마무리리**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+
+취업걱정되시는분! 혹은 요즘 트렌드인 AI시장에 발을 들이고 싶으신 분들은 한번 참여해보셔도 좋은 프로그램입니다!
