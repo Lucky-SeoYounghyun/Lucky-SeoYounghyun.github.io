@@ -47,3 +47,8 @@ _KT Aivle School 지원자격_
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
 취업걱정되시는분! 혹은 요즘 트렌드인 AI시장에 발을 들이고 싶으신 분들은 한번 참여해보셔도 좋은 프로그램입니다!
+
+## **3. 출처**
+<hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+
+[DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)  
