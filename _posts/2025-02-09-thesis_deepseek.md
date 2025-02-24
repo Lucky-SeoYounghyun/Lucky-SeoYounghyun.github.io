@@ -37,6 +37,7 @@ chap 3. FP8
 
 이번에는 MoE에대해 설명하도록 하겠습니다.
 
+<br/>
 
 ## **1. MoE 모델이 뭔데?**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
@@ -74,15 +75,26 @@ MoE의 주요 특징을 보겠습니다.
 2. 동적 전문가 분배(Dynamic Expert Assignment) 적용
 - 특정 전문가에게 과부하가 걸리는 문제를 해결하기 위해 실시간 전문가 분배 최적화.
 
-## **2. 지원 자격**
+3. FP8을 사용하여 학습 및 추론 비용 절감
+- 저정밀 연산을 사용하여 메모리 사용량 및 GPU 비용 절감(이부분은 chap3에 상세 설명 하겠습니다.)
+
+## **2. 정리**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
 
+| 모델             | FFN 구조                      | 사용 방식                            |
+|------------------|-------------------------------|--------------------------------------|
+| 기존 Transformer | 모든 토큰이 동일한 FFN을 사용 | 모든 입력이 같은 뉴런을 거침          |
+| MoE 모델         | 여러 개의 FFN이 존재 (전문가들) | 특정 입력에 맞는 FFN(전문가)만 사용 |
 
+<br/>
 
-## **3. 마무리리**
+## **3. 결론**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
+MoE모델은 대형 언어 모델(LLM)의 연상 효율성을 극대화 하는 모델이며, 이를 DeepSeek는 기존 MoE모델의 다양한 단점을 개선하여 학습과 추론을 최적화하였습니다.  
 
+다음 챕터에서는 MTP에대해 설명하도록 하겠습니다.
 
+<br/>
 
 ## **3. 출처**
 <hr style="height: 0.5px; background-color: rgba(0, 0, 0, .1); border: none;" />
