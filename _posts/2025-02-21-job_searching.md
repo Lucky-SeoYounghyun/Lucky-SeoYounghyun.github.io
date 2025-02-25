@@ -28,8 +28,8 @@ KT개열사들이 주를이루며 20여개의 기업이 참가하는 기업 설�
 
 잡페어 현장에 들어가면 가장 처음 보이는곳은 다음과같은 포토존이 있습니다.
 
-![Desktop View](/assets/img/20250221_post/jobfair1.PNG){: width="800" height="400"}
-![Desktop View](/assets/img/20250221_post/jobfair2.PNG){: width="800" height="400"}
+![Desktop View](/assets/img/20250221_post/jobfair1.jpg){: width="800" height="400"}
+![Desktop View](/assets/img/20250221_post/jobfair2.jpg){: width="800" height="400"}
 
 이런 포토존을 지나서 메인 홀로 들어가면 각 기업들의 부스가 있으며, 중앙에는 잠시 쉬었다갈 수 있는 의자와 테이블이 마련되어 있습니다.  
 
