@@ -2,7 +2,7 @@
 title: "[KT AIVLE] 빅프로젝트 발표회"
 description: 
 author:
-date: 2025-02-11 23:00:00 +0900
+date: 2025-02-18 23:00:00 +0900
 categories: [KT aivle school, big_project]
 tags: [KT aivle school]
 pin: false
@@ -36,11 +36,11 @@ image:
 
 또한 아래와 같이 다양한 피드백도 받을 수 있었습니다(개인정보 이슈로 블러처리 하였습니다.)   
 
-![Desktop View](/assets/img/20250211_post/post.png){: width="800" height="400"}
+![Desktop View](/assets/img/20250218_post/post.png){: width="800" height="400"}
 
 아래와같이 기념사진을 찍고 마무리 되었습니다.  
 
-![Desktop View](/assets/img/20250211_post/post1.png){: width="800" height="400"}
+![Desktop View](/assets/img/20250218_post/post1.png){: width="800" height="400"}
 
 <br/>
 
