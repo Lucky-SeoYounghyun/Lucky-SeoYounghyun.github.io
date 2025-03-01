@@ -42,7 +42,7 @@ AICE ASSOCIATE란?
 
 합격하면 아래와같은 자격증과 NFT 자격증이 주어집니다.
 
-![Desktop View](/assets/img/20250207_post/image.PNG){: width="800" height="400"}
+![Desktop View](/assets/img/20250207_post/image.JPG){: width="800" height="400"}
 
 <br/>
 
