@@ -4,7 +4,7 @@ description:
 author:
 date: 2025-02-07 23:10:00 +0900
 categories: [AI, 자격증]
-tags: [에이블스쿨, 국가공인, AICE자격증, AI자격증, @aice.study]
+tags: [에이블스쿨, 국가공인, AICE자격증, AI자격증, aice.study]
 pin: false
 math: true
 mermaid: true
